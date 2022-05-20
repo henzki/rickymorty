@@ -1,0 +1,68 @@
+html {
+    background-color: rgb(240, 240, 240);
+}
+
+body {
+    margin: auto;
+    max-width: 1200px;
+    font-family: 'Bowlby One', cursive;
+}
+
+h1 {
+    color: rgb(51, 51, 51);
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list .image {
+    width: 25%;
+}
+
+.block {
+    height: 100px;
+}
+
+.pickle {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    border: 3px solid rgb(35, 109, 35);
+    border-radius: 30px;
+    background: rgb(9, 121, 46);
+    background: linear-gradient(90deg, rgba(9, 121, 46, 1) 0%, rgba(64, 255, 127, 1) 50%, rgba(9, 121, 46, 1) 100%);
+}
+
+.pickle .name {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(25, 77, 25);
+}
+
+.pickle .status {
+    color: rgb(25, 77, 25);
+    text-align: left;
+}
+
+.pickle .type {
+    color: rgb(25, 77, 25);
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.pickle .origin {
+    color: rgb(25, 77, 25);
+}
+
+
+
+.pickle img {
+    border-radius: 30px;
+}
